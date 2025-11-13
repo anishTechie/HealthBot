@@ -13,7 +13,7 @@ from langchain.prompts import PromptTemplate
 
 # --- 1. CONFIGURATION ---
 # API KEY YAHAN DALEIN
-os.environ["GOOGLE_API_KEY"] = " "
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCpBdvGxu8a7v-Gn3iRWRnK43Bgl-xJtwU"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # --- 2. PAGE SETUP ---

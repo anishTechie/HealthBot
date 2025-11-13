@@ -1,10 +1,10 @@
-🩺 MediBot Pro: AI Healthcare Assistant
+🩺 MediBot : AI Healthcare Assistant
 
 Ek intelligent, dual-mode AI chatbot jo healthcare assistance ke liye design kiya gaya hai. Yeh general health advice de sakta hai aur aapke upload kiye gaye medical documents (jaise lab reports) se specific sawal-jawab bhi kar sakta hai.
 
 (Yahan screenshot link daalein. Aap apne app ka screenshot le kar, use GitHub par upload karke, uska link yahan paste kar sakte hain.)
 
-🌟 Key Features (Mukhya Visheshtayein)
+🌟 Key Features :
 
 Dual-Mode AI: Do alag-alag mode mein kaam karta hai.
 
@@ -74,7 +74,6 @@ pip install -r requirements.txt
 6. Apni API Key Daalein:
 
 app.py file ko code editor mein kholein.
-
 Line 19 par jayein aur "YAHAN_APNI_API_KEY_PASTE_KAREIN" ki jagah apni Google Gemini API Key daalein.
 
 7. App Run Karein!
