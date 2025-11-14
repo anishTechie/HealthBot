@@ -12,7 +12,7 @@ from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 
 # API KEY 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCpBdvGxu8a7v-Gn3iRWRnK43Bgl-xJtwU"
+os.environ["GOOGLE_API_KEY"] = " "
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # --- 2. PAGE SETUP ---
