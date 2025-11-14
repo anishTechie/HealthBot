@@ -3,7 +3,7 @@ from PyPDF2 import PdfReader
 import google.generativeai as genai
 import os
 
-# --- IMPORTS (Stable "Golden Set" Versions ke liye) ---
+# --- IMPORTS ---
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -11,8 +11,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
 
-# --- 1. CONFIGURATION ---
-# API KEY YAHAN DALEIN
+# API KEY 
 os.environ["GOOGLE_API_KEY"] = "AIzaSyCpBdvGxu8a7v-Gn3iRWRnK43Bgl-xJtwU"
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
